@@ -1,6 +1,8 @@
 package com.web.app.games;
 
-public class Pacman {
+import com.web.app.models.GameConsole;
+
+public class Pacman implements GameConsole {
     public void up(){
         System.out.println("Up");
     }

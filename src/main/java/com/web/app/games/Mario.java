@@ -1,5 +1,7 @@
 package com.web.app.games;
-public class Mario {
+import com.web.app.models.GameConsole;
+
+public class Mario implements GameConsole {
     public void up(){
         System.out.println("Mario Up");
     }
